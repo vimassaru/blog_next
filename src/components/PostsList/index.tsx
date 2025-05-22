@@ -1,6 +1,4 @@
 import { postRepository } from '@/repositories/post';
-import { Suspense } from 'react';
-import { SpinLoader } from '../SpinLoader';
 
 export async function PostsList() {
   const posts = await postRepository.findAll();

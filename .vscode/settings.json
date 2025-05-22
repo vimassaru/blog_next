@@ -5,12 +5,15 @@
   "debug.console.fontSize": 16,
   "terminal.integrated.fontSize": 16,
   "editor.glyphMargin": false,
-  "workbench.activityBar.location": "default",
   "editor.lineNumbers": "on",
   "files.eol": "\n", // Final de linha sempre será LF
   "workbench.editor.labelFormat": "short",
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
+
+  // Workbench
+  "workbench.activityBar.location": "default",
+  "workbench.editor.enablePreview": false,
 
   // Code Runner
   "code-runner.clearPreviousOutput": true,

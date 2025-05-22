@@ -1,4 +1,5 @@
 import { Container } from '@/components/Container';
+import { Header } from '@/components/Header';
 import { PostsList } from '@/components/PostsList';
 import { SpinLoader } from '@/components/SpinLoader';
 import { ThemeButton } from '@/components/ThemeButton';
@@ -7,11 +8,9 @@ import { Suspense } from 'react';
 export default async function HomePage() {
   return (
     <Container>
-      <header>
-        <h1 className='text-6xl font-bold text-center py-8'>Essa é a HEADER</h1>
-      </header>
+      <Header />
 
-      <div className='flex items-center justify-center'>
+      <div className='flex items-end justify-center'>
         <ThemeButton />
       </div>
 

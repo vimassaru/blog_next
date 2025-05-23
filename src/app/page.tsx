@@ -22,7 +22,7 @@ export default async function HomePage() {
             priority
           />
         </Link>
-        <div className='flex flex-col gap-4'>
+        <div className='flex flex-col gap-4 sm:justify-center'>
           <time
             className='text-slate-600 block text-sm/tight'
             dateTime='2025-05-22'
